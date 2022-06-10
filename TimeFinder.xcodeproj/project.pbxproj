@@ -7,61 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D73D8FB22852DFC200974BBC /* TimeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FB12852DFC200974BBC /* TimeFinderApp.swift */; };
-		D73D8FB42852DFC200974BBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FB32852DFC200974BBC /* ContentView.swift */; };
-		D73D8FB62852DFC400974BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FB52852DFC400974BBC /* Assets.xcassets */; };
-		D73D8FB92852DFC400974BBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FB82852DFC400974BBC /* Preview Assets.xcassets */; };
-		D73D8FC32852DFC400974BBC /* TimeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FC22852DFC400974BBC /* TimeFinderTests.swift */; };
-		D73D8FCD2852DFC400974BBC /* TimeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FCC2852DFC400974BBC /* TimeFinderUITests.swift */; };
-		D73D8FCF2852DFC400974BBC /* TimeFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FCE2852DFC400974BBC /* TimeFinderUITestsLaunchTests.swift */; };
+		D73D8FE82852E3F200974BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FE72852E3F200974BBC /* AppDelegate.swift */; };
+		D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FE92852E3F200974BBC /* SceneDelegate.swift */; };
+		D73D8FEC2852E3F200974BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FEB2852E3F200974BBC /* ViewController.swift */; };
+		D73D8FEF2852E3F200974BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FED2852E3F200974BBC /* Main.storyboard */; };
+		D73D8FF12852E3F400974BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FF02852E3F400974BBC /* Assets.xcassets */; };
+		D73D8FF42852E3F400974BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FF22852E3F400974BBC /* LaunchScreen.storyboard */; };
+		D73D8FFF2852E3F400974BBC /* TimeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FFE2852E3F400974BBC /* TimeFinderTests.swift */; };
+		D73D90092852E3F400974BBC /* TimeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D90082852E3F400974BBC /* TimeFinderUITests.swift */; };
+		D73D900B2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D900A2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D73D8FBF2852DFC400974BBC /* PBXContainerItemProxy */ = {
+		D73D8FFB2852E3F400974BBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D73D8FA62852DFC200974BBC /* Project object */;
+			containerPortal = D73D8FDC2852E3F200974BBC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D73D8FAD2852DFC200974BBC;
+			remoteGlobalIDString = D73D8FE32852E3F200974BBC;
 			remoteInfo = TimeFinder;
 		};
-		D73D8FC92852DFC400974BBC /* PBXContainerItemProxy */ = {
+		D73D90052852E3F400974BBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D73D8FA62852DFC200974BBC /* Project object */;
+			containerPortal = D73D8FDC2852E3F200974BBC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D73D8FAD2852DFC200974BBC;
+			remoteGlobalIDString = D73D8FE32852E3F200974BBC;
 			remoteInfo = TimeFinder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D73D8FAE2852DFC200974BBC /* TimeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D73D8FB12852DFC200974BBC /* TimeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderApp.swift; sourceTree = "<group>"; };
-		D73D8FB32852DFC200974BBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D73D8FB52852DFC400974BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D73D8FB82852DFC400974BBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D73D8FBE2852DFC400974BBC /* TimeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D73D8FC22852DFC400974BBC /* TimeFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderTests.swift; sourceTree = "<group>"; };
-		D73D8FC82852DFC400974BBC /* TimeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D73D8FCC2852DFC400974BBC /* TimeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderUITests.swift; sourceTree = "<group>"; };
-		D73D8FCE2852DFC400974BBC /* TimeFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D73D8FE42852E3F200974BBC /* TimeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D8FE72852E3F200974BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D73D8FE92852E3F200974BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D73D8FEB2852E3F200974BBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D73D8FEE2852E3F200974BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73D8FF02852E3F400974BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73D8FF32852E3F400974BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73D8FF52852E3F400974BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73D8FFA2852E3F400974BBC /* TimeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D8FFE2852E3F400974BBC /* TimeFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderTests.swift; sourceTree = "<group>"; };
+		D73D90042852E3F400974BBC /* TimeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D90082852E3F400974BBC /* TimeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderUITests.swift; sourceTree = "<group>"; };
+		D73D900A2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D73D8FAB2852DFC200974BBC /* Frameworks */ = {
+		D73D8FE12852E3F200974BBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73D8FBB2852DFC400974BBC /* Frameworks */ = {
+		D73D8FF72852E3F400974BBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73D8FC52852DFC400974BBC /* Frameworks */ = {
+		D73D90012852E3F400974BBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D73D8FA52852DFC200974BBC = {
+		D73D8FDB2852E3F200974BBC = {
 			isa = PBXGroup;
 			children = (
-				D73D8FB02852DFC200974BBC /* TimeFinder */,
-				D73D8FC12852DFC400974BBC /* TimeFinderTests */,
-				D73D8FCB2852DFC400974BBC /* TimeFinderUITests */,
-				D73D8FAF2852DFC200974BBC /* Products */,
+				D73D8FE62852E3F200974BBC /* TimeFinder */,
+				D73D8FFD2852E3F400974BBC /* TimeFinderTests */,
+				D73D90072852E3F400974BBC /* TimeFinderUITests */,
+				D73D8FE52852E3F200974BBC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D73D8FAF2852DFC200974BBC /* Products */ = {
+		D73D8FE52852E3F200974BBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D73D8FAE2852DFC200974BBC /* TimeFinder.app */,
-				D73D8FBE2852DFC400974BBC /* TimeFinderTests.xctest */,
-				D73D8FC82852DFC400974BBC /* TimeFinderUITests.xctest */,
+				D73D8FE42852E3F200974BBC /* TimeFinder.app */,
+				D73D8FFA2852E3F400974BBC /* TimeFinderTests.xctest */,
+				D73D90042852E3F400974BBC /* TimeFinderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D73D8FB02852DFC200974BBC /* TimeFinder */ = {
+		D73D8FE62852E3F200974BBC /* TimeFinder */ = {
 			isa = PBXGroup;
 			children = (
-				D73D8FB12852DFC200974BBC /* TimeFinderApp.swift */,
-				D73D8FB32852DFC200974BBC /* ContentView.swift */,
-				D73D8FB52852DFC400974BBC /* Assets.xcassets */,
-				D73D8FB72852DFC400974BBC /* Preview Content */,
+				D73D8FE72852E3F200974BBC /* AppDelegate.swift */,
+				D73D8FE92852E3F200974BBC /* SceneDelegate.swift */,
+				D73D8FEB2852E3F200974BBC /* ViewController.swift */,
+				D73D8FED2852E3F200974BBC /* Main.storyboard */,
+				D73D8FF02852E3F400974BBC /* Assets.xcassets */,
+				D73D8FF22852E3F400974BBC /* LaunchScreen.storyboard */,
+				D73D8FF52852E3F400974BBC /* Info.plist */,
 			);
 			path = TimeFinder;
 			sourceTree = "<group>";
 		};
-		D73D8FB72852DFC400974BBC /* Preview Content */ = {
+		D73D8FFD2852E3F400974BBC /* TimeFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				D73D8FB82852DFC400974BBC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D73D8FC12852DFC400974BBC /* TimeFinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				D73D8FC22852DFC400974BBC /* TimeFinderTests.swift */,
+				D73D8FFE2852E3F400974BBC /* TimeFinderTests.swift */,
 			);
 			path = TimeFinderTests;
 			sourceTree = "<group>";
 		};
-		D73D8FCB2852DFC400974BBC /* TimeFinderUITests */ = {
+		D73D90072852E3F400974BBC /* TimeFinderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D73D8FCC2852DFC400974BBC /* TimeFinderUITests.swift */,
-				D73D8FCE2852DFC400974BBC /* TimeFinderUITestsLaunchTests.swift */,
+				D73D90082852E3F400974BBC /* TimeFinderUITests.swift */,
+				D73D900A2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift */,
 			);
 			path = TimeFinderUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D73D8FAD2852DFC200974BBC /* TimeFinder */ = {
+		D73D8FE32852E3F200974BBC /* TimeFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D73D8FD22852DFC400974BBC /* Build configuration list for PBXNativeTarget "TimeFinder" */;
+			buildConfigurationList = D73D900E2852E3F400974BBC /* Build configuration list for PBXNativeTarget "TimeFinder" */;
 			buildPhases = (
-				D73D8FAA2852DFC200974BBC /* Sources */,
-				D73D8FAB2852DFC200974BBC /* Frameworks */,
-				D73D8FAC2852DFC200974BBC /* Resources */,
+				D73D8FE02852E3F200974BBC /* Sources */,
+				D73D8FE12852E3F200974BBC /* Frameworks */,
+				D73D8FE22852E3F200974BBC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = TimeFinder;
 			productName = TimeFinder;
-			productReference = D73D8FAE2852DFC200974BBC /* TimeFinder.app */;
+			productReference = D73D8FE42852E3F200974BBC /* TimeFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D73D8FBD2852DFC400974BBC /* TimeFinderTests */ = {
+		D73D8FF92852E3F400974BBC /* TimeFinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D73D8FD52852DFC400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderTests" */;
+			buildConfigurationList = D73D90112852E3F400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderTests" */;
 			buildPhases = (
-				D73D8FBA2852DFC400974BBC /* Sources */,
-				D73D8FBB2852DFC400974BBC /* Frameworks */,
-				D73D8FBC2852DFC400974BBC /* Resources */,
+				D73D8FF62852E3F400974BBC /* Sources */,
+				D73D8FF72852E3F400974BBC /* Frameworks */,
+				D73D8FF82852E3F400974BBC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D73D8FC02852DFC400974BBC /* PBXTargetDependency */,
+				D73D8FFC2852E3F400974BBC /* PBXTargetDependency */,
 			);
 			name = TimeFinderTests;
 			productName = TimeFinderTests;
-			productReference = D73D8FBE2852DFC400974BBC /* TimeFinderTests.xctest */;
+			productReference = D73D8FFA2852E3F400974BBC /* TimeFinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D73D8FC72852DFC400974BBC /* TimeFinderUITests */ = {
+		D73D90032852E3F400974BBC /* TimeFinderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D73D8FD82852DFC400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderUITests" */;
+			buildConfigurationList = D73D90142852E3F400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderUITests" */;
 			buildPhases = (
-				D73D8FC42852DFC400974BBC /* Sources */,
-				D73D8FC52852DFC400974BBC /* Frameworks */,
-				D73D8FC62852DFC400974BBC /* Resources */,
+				D73D90002852E3F400974BBC /* Sources */,
+				D73D90012852E3F400974BBC /* Frameworks */,
+				D73D90022852E3F400974BBC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D73D8FCA2852DFC400974BBC /* PBXTargetDependency */,
+				D73D90062852E3F400974BBC /* PBXTargetDependency */,
 			);
 			name = TimeFinderUITests;
 			productName = TimeFinderUITests;
-			productReference = D73D8FC82852DFC400974BBC /* TimeFinderUITests.xctest */;
+			productReference = D73D90042852E3F400974BBC /* TimeFinderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D73D8FA62852DFC200974BBC /* Project object */ = {
+		D73D8FDC2852E3F200974BBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					D73D8FAD2852DFC200974BBC = {
+					D73D8FE32852E3F200974BBC = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					D73D8FBD2852DFC400974BBC = {
+					D73D8FF92852E3F400974BBC = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = D73D8FAD2852DFC200974BBC;
+						TestTargetID = D73D8FE32852E3F200974BBC;
 					};
-					D73D8FC72852DFC400974BBC = {
+					D73D90032852E3F400974BBC = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = D73D8FAD2852DFC200974BBC;
+						TestTargetID = D73D8FE32852E3F200974BBC;
 					};
 				};
 			};
-			buildConfigurationList = D73D8FA92852DFC200974BBC /* Build configuration list for PBXProject "TimeFinder" */;
+			buildConfigurationList = D73D8FDF2852E3F200974BBC /* Build configuration list for PBXProject "TimeFinder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D73D8FA52852DFC200974BBC;
-			productRefGroup = D73D8FAF2852DFC200974BBC /* Products */;
+			mainGroup = D73D8FDB2852E3F200974BBC;
+			productRefGroup = D73D8FE52852E3F200974BBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D73D8FAD2852DFC200974BBC /* TimeFinder */,
-				D73D8FBD2852DFC400974BBC /* TimeFinderTests */,
-				D73D8FC72852DFC400974BBC /* TimeFinderUITests */,
+				D73D8FE32852E3F200974BBC /* TimeFinder */,
+				D73D8FF92852E3F400974BBC /* TimeFinderTests */,
+				D73D90032852E3F400974BBC /* TimeFinderUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D73D8FAC2852DFC200974BBC /* Resources */ = {
+		D73D8FE22852E3F200974BBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73D8FB92852DFC400974BBC /* Preview Assets.xcassets in Resources */,
-				D73D8FB62852DFC400974BBC /* Assets.xcassets in Resources */,
+				D73D8FF42852E3F400974BBC /* LaunchScreen.storyboard in Resources */,
+				D73D8FF12852E3F400974BBC /* Assets.xcassets in Resources */,
+				D73D8FEF2852E3F200974BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73D8FBC2852DFC400974BBC /* Resources */ = {
+		D73D8FF82852E3F400974BBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73D8FC62852DFC400974BBC /* Resources */ = {
+		D73D90022852E3F400974BBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D73D8FAA2852DFC200974BBC /* Sources */ = {
+		D73D8FE02852E3F200974BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73D8FB42852DFC200974BBC /* ContentView.swift in Sources */,
-				D73D8FB22852DFC200974BBC /* TimeFinderApp.swift in Sources */,
+				D73D8FEC2852E3F200974BBC /* ViewController.swift in Sources */,
+				D73D8FE82852E3F200974BBC /* AppDelegate.swift in Sources */,
+				D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73D8FBA2852DFC400974BBC /* Sources */ = {
+		D73D8FF62852E3F400974BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73D8FC32852DFC400974BBC /* TimeFinderTests.swift in Sources */,
+				D73D8FFF2852E3F400974BBC /* TimeFinderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73D8FC42852DFC400974BBC /* Sources */ = {
+		D73D90002852E3F400974BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73D8FCD2852DFC400974BBC /* TimeFinderUITests.swift in Sources */,
-				D73D8FCF2852DFC400974BBC /* TimeFinderUITestsLaunchTests.swift in Sources */,
+				D73D90092852E3F400974BBC /* TimeFinderUITests.swift in Sources */,
+				D73D900B2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D73D8FC02852DFC400974BBC /* PBXTargetDependency */ = {
+		D73D8FFC2852E3F400974BBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D73D8FAD2852DFC200974BBC /* TimeFinder */;
-			targetProxy = D73D8FBF2852DFC400974BBC /* PBXContainerItemProxy */;
+			target = D73D8FE32852E3F200974BBC /* TimeFinder */;
+			targetProxy = D73D8FFB2852E3F400974BBC /* PBXContainerItemProxy */;
 		};
-		D73D8FCA2852DFC400974BBC /* PBXTargetDependency */ = {
+		D73D90062852E3F400974BBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D73D8FAD2852DFC200974BBC /* TimeFinder */;
-			targetProxy = D73D8FC92852DFC400974BBC /* PBXContainerItemProxy */;
+			target = D73D8FE32852E3F200974BBC /* TimeFinder */;
+			targetProxy = D73D90052852E3F400974BBC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		D73D8FED2852E3F200974BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73D8FEE2852E3F200974BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D73D8FF22852E3F400974BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73D8FF32852E3F400974BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		D73D8FD02852DFC400974BBC /* Debug */ = {
+		D73D900C2852E3F400974BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		D73D8FD12852DFC400974BBC /* Release */ = {
+		D73D900D2852E3F400974BBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,20 +432,19 @@
 			};
 			name = Release;
 		};
-		D73D8FD32852DFC400974BBC /* Debug */ = {
+		D73D900F2852E3F400974BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TimeFinder/Preview Content\"";
 				DEVELOPMENT_TEAM = CAUV8X6AAP;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TimeFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,20 +460,19 @@
 			};
 			name = Debug;
 		};
-		D73D8FD42852DFC400974BBC /* Release */ = {
+		D73D90102852E3F400974BBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TimeFinder/Preview Content\"";
 				DEVELOPMENT_TEAM = CAUV8X6AAP;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TimeFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,7 +488,7 @@
 			};
 			name = Release;
 		};
-		D73D8FD62852DFC400974BBC /* Debug */ = {
+		D73D90122852E3F400974BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		D73D8FD72852DFC400974BBC /* Release */ = {
+		D73D90132852E3F400974BBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -509,7 +528,7 @@
 			};
 			name = Release;
 		};
-		D73D8FD92852DFC400974BBC /* Debug */ = {
+		D73D90152852E3F400974BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		D73D8FDA2852DFC400974BBC /* Release */ = {
+		D73D90162852E3F400974BBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -548,43 +567,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D73D8FA92852DFC200974BBC /* Build configuration list for PBXProject "TimeFinder" */ = {
+		D73D8FDF2852E3F200974BBC /* Build configuration list for PBXProject "TimeFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D73D8FD02852DFC400974BBC /* Debug */,
-				D73D8FD12852DFC400974BBC /* Release */,
+				D73D900C2852E3F400974BBC /* Debug */,
+				D73D900D2852E3F400974BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D73D8FD22852DFC400974BBC /* Build configuration list for PBXNativeTarget "TimeFinder" */ = {
+		D73D900E2852E3F400974BBC /* Build configuration list for PBXNativeTarget "TimeFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D73D8FD32852DFC400974BBC /* Debug */,
-				D73D8FD42852DFC400974BBC /* Release */,
+				D73D900F2852E3F400974BBC /* Debug */,
+				D73D90102852E3F400974BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D73D8FD52852DFC400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderTests" */ = {
+		D73D90112852E3F400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D73D8FD62852DFC400974BBC /* Debug */,
-				D73D8FD72852DFC400974BBC /* Release */,
+				D73D90122852E3F400974BBC /* Debug */,
+				D73D90132852E3F400974BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D73D8FD82852DFC400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderUITests" */ = {
+		D73D90142852E3F400974BBC /* Build configuration list for PBXNativeTarget "TimeFinderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D73D8FD92852DFC400974BBC /* Debug */,
-				D73D8FDA2852DFC400974BBC /* Release */,
+				D73D90152852E3F400974BBC /* Debug */,
+				D73D90162852E3F400974BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D73D8FA62852DFC200974BBC /* Project object */;
+	rootObject = D73D8FDC2852E3F200974BBC /* Project object */;
 }
