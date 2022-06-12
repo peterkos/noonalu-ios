@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		D73D8FE82852E3F200974BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FE72852E3F200974BBC /* AppDelegate.swift */; };
 		D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FE92852E3F200974BBC /* SceneDelegate.swift */; };
-		D73D8FEC2852E3F200974BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FEB2852E3F200974BBC /* ViewController.swift */; };
 		D73D8FEF2852E3F200974BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FED2852E3F200974BBC /* Main.storyboard */; };
 		D73D8FF12852E3F400974BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FF02852E3F400974BBC /* Assets.xcassets */; };
 		D73D8FF42852E3F400974BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FF22852E3F400974BBC /* LaunchScreen.storyboard */; };
 		D73D8FFF2852E3F400974BBC /* TimeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FFE2852E3F400974BBC /* TimeFinderTests.swift */; };
 		D73D90092852E3F400974BBC /* TimeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D90082852E3F400974BBC /* TimeFinderUITests.swift */; };
 		D73D900B2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D900A2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift */; };
+		D73D901C2852E50400974BBC /* SwiftUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D901B2852E50400974BBC /* SwiftUIHostingController.swift */; };
+		D73D901E2852E69100974BBC /* TestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D901D2852E69100974BBC /* TestEvent.swift */; };
+		D7544CDF2856858B00130EC2 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CDE2856858B00130EC2 /* MainNavigation.swift */; };
+		D7544CE12856867D00130EC2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE02856867D00130EC2 /* SettingsView.swift */; };
+		D7544CE32856883E00130EC2 /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE22856883E00130EC2 /* MeetingsView.swift */; };
+		D7544CE52856884A00130EC2 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE42856884A00130EC2 /* TeamView.swift */; };
+		D7544CE72856884B00130EC2 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE62856884B00130EC2 /* CreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		D73D8FE42852E3F200974BBC /* TimeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D8FE72852E3F200974BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D73D8FE92852E3F200974BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D73D8FEB2852E3F200974BBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D73D8FEE2852E3F200974BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D73D8FF02852E3F400974BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73D8FF32852E3F400974BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		D73D90042852E3F400974BBC /* TimeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D90082852E3F400974BBC /* TimeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderUITests.swift; sourceTree = "<group>"; };
 		D73D900A2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D73D901B2852E50400974BBC /* SwiftUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHostingController.swift; sourceTree = "<group>"; };
+		D73D901D2852E69100974BBC /* TestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEvent.swift; sourceTree = "<group>"; };
+		D7544CDE2856858B00130EC2 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
+		D7544CE02856867D00130EC2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D7544CE22856883E00130EC2 /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
+		D7544CE42856884A00130EC2 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		D7544CE62856884B00130EC2 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,14 @@
 		D73D8FE62852E3F200974BBC /* TimeFinder */ = {
 			isa = PBXGroup;
 			children = (
+				D73D901A2852E4B200974BBC /* Models */,
+				D73D90192852E4AF00974BBC /* Views */,
+				D73D90182852E4AA00974BBC /* ViewModels */,
+				D73D90172852E47000974BBC /* Managers */,
 				D73D8FE72852E3F200974BBC /* AppDelegate.swift */,
 				D73D8FE92852E3F200974BBC /* SceneDelegate.swift */,
-				D73D8FEB2852E3F200974BBC /* ViewController.swift */,
 				D73D8FED2852E3F200974BBC /* Main.storyboard */,
+				D73D901B2852E50400974BBC /* SwiftUIHostingController.swift */,
 				D73D8FF02852E3F400974BBC /* Assets.xcassets */,
 				D73D8FF22852E3F400974BBC /* LaunchScreen.storyboard */,
 				D73D8FF52852E3F400974BBC /* Info.plist */,
@@ -125,6 +141,48 @@
 				D73D900A2852E3F400974BBC /* TimeFinderUITestsLaunchTests.swift */,
 			);
 			path = TimeFinderUITests;
+			sourceTree = "<group>";
+		};
+		D73D90172852E47000974BBC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D73D90182852E4AA00974BBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D73D90192852E4AF00974BBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7544CE82856890000130EC2 /* Scaffolding */,
+				D7544CDE2856858B00130EC2 /* MainNavigation.swift */,
+				D7544CE22856883E00130EC2 /* MeetingsView.swift */,
+				D7544CE62856884B00130EC2 /* CreateView.swift */,
+				D7544CE42856884A00130EC2 /* TeamView.swift */,
+				D7544CE02856867D00130EC2 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D73D901A2852E4B200974BBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7544CE82856890000130EC2 /* Scaffolding */ = {
+			isa = PBXGroup;
+			children = (
+				D73D901D2852E69100974BBC /* TestEvent.swift */,
+			);
+			path = Scaffolding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73D8FEC2852E3F200974BBC /* ViewController.swift in Sources */,
+				D7544CE72856884B00130EC2 /* CreateView.swift in Sources */,
 				D73D8FE82852E3F200974BBC /* AppDelegate.swift in Sources */,
+				D73D901E2852E69100974BBC /* TestEvent.swift in Sources */,
 				D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */,
+				D7544CE12856867D00130EC2 /* SettingsView.swift in Sources */,
+				D7544CE32856883E00130EC2 /* MeetingsView.swift in Sources */,
+				D7544CE52856884A00130EC2 /* TeamView.swift in Sources */,
+				D73D901C2852E50400974BBC /* SwiftUIHostingController.swift in Sources */,
+				D7544CDF2856858B00130EC2 /* MainNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
