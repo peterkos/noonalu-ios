@@ -12,9 +12,6 @@ struct MeetingsView: View {
 
     var body: some View {
         Text("Meetings")
-
-        
-
     }
 
 }
