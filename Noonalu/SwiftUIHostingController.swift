@@ -8,10 +8,10 @@
 import UIKit
 import SwiftUI
 
-class SwiftUIHostingController: UIHostingController<MyView> {
+class SwiftUIHostingController: UIHostingController<MainNavigation> {
 
     required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder, rootView: MyView())
+        super.init(coder: aDecoder, rootView: MainNavigation())
     }
 
 }

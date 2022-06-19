@@ -25,15 +25,25 @@ struct Cell: View {
     let cellHeight = 30
     let text: String
 
-    @State var cellState: CellState
+    // The relative day and hour index that this cell is in
+    let dayIndex: Int
+    let hourIndex: Int
 
-    init(_ text: String, state: CellState) {
+    @State var cellState: CellState
+    @ObservedObject var viewModel: CreateViewModel
+
+    // Almost-full constructor
+    init(_ text: String, hourIndex: Int, dayIndex: Int, viewModel: CreateViewModel) {
         self.text = text
-        self.cellState = state
+        self.cellState = .Empty
+        self.viewModel = viewModel
+        self.dayIndex  = dayIndex
+        self.hourIndex = hourIndex
     }
 
-    init(_ text: String) {
-        self.init(text, state: .Empty)
+    // Mainly used for mocking
+    init(_ text: String, state: CellState) {
+        self.init(text, hourIndex: 0, dayIndex: 0, viewModel: CreateViewModel())
     }
 
     var body: some View {
@@ -56,6 +66,11 @@ struct Cell: View {
                 .onTapGesture {
                     self.cellState = .FirstHalf
                 }
+                .onAppear {
+                    self.viewModel.selectTime(dayIndex: self.dayIndex,
+                                              hourIndex: self.hourIndex,
+                                              timeSlot: .Full)
+                }
         case .FirstHalf:
             GeometryReader { metrics in
                 ZStack {
@@ -74,6 +89,11 @@ struct Cell: View {
                 }
                 .onTapGesture {
                     self.cellState = .SecondHalf
+                }
+                .onAppear {
+                    self.viewModel.selectTime(dayIndex: self.dayIndex,
+                                              hourIndex: self.hourIndex,
+                                              timeSlot: .FirstHalf)
                 }
             }
             .frame(height: 50)
@@ -96,6 +116,11 @@ struct Cell: View {
                 }
                 .onTapGesture {
                     self.cellState = .Empty
+                }
+                .onAppear {
+                    self.viewModel.selectTime(dayIndex: self.dayIndex,
+                                              hourIndex: self.hourIndex,
+                                              timeSlot: .SecondHalf)
                 }
             }
             .frame(height: 50)

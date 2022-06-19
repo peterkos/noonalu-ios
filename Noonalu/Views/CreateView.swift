@@ -7,24 +7,28 @@
 
 import SwiftUI
 
-
-
 struct CreateView: View {
 
     var hoursInDay = 8
     let days = ["Sun", "Mon"]
 
+    @ObservedObject var viewModel: CreateViewModel
+
+    init(viewModel: CreateViewModel = CreateViewModel()) {
+        self.viewModel = viewModel
+    }
+
     var body: some View {
         HStack {
-            ForEach(days, id: \.self) { day in
+            ForEach(Array(days.enumerated()), id: \.element) { (dayIndex, dayName) in
                 VStack {
-                    Text(day)
+                    Text(dayName)
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
                         .background(RoundedRectangle(cornerRadius: 8).fill(Color.nooLightGray))
 
-                    ForEach(0..<hoursInDay) { _ in
-                        Cell("Day")
+                    ForEach(0..<hoursInDay) { i in
+                        Cell("Day", hourIndex: i, dayIndex: dayIndex, viewModel: self.viewModel)
                             .frame(height: 30)
                             .padding([.vertical], 10)
                     }
