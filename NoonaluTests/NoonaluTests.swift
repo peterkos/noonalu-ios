@@ -1,14 +1,14 @@
 //
-//  TimeFinderTests.swift
-//  TimeFinderTests
+//  NoonaluTests.swift
+//  NoonaluTests
 //
 //  Created by Peter Kos on 6/9/22.
 //
 
 import XCTest
-@testable import TimeFinder
+@testable import Noonalu
 
-class TimeFinderTests: XCTestCase {
+class NoonaluTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

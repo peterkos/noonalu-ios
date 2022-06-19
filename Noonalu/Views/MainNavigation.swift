@@ -1,6 +1,6 @@
 //
 //  MainView.swift
-//  TimeFinder
+//  Noonalu
 //
 //  Created by Peter Kos on 6/9/22.
 //

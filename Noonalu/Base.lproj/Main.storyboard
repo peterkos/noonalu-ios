@@ -8,7 +8,7 @@
         <!--SwiftUI Hosting Controller-->
         <scene sceneID="AHg-z2-7k7">
             <objects>
-                <hostingController id="mzW-ht-pXu" customClass="SwiftUIHostingController" customModule="TimeFinder" customModuleProvider="target" sceneMemberID="viewController"/>
+                <hostingController id="mzW-ht-pXu" customClass="SwiftUIHostingController" customModule="Noonalu" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MUA-dV-SMS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="819" y="131"/>

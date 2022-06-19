@@ -1,13 +1,13 @@
 //
-//  TimeFinderUITestsLaunchTests.swift
-//  TimeFinderUITests
+//  NoonaluUITestsLaunchTests.swift
+//  NoonaluUITests
 //
 //  Created by Peter Kos on 6/9/22.
 //
 
 import XCTest
 
-class TimeFinderUITestsLaunchTests: XCTestCase {
+class NoonaluUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
