@@ -28,27 +28,31 @@ struct Cell: View {
 
     @State var cellState: CellState
 
-    init(_ text: String) {
+    init(_ text: String, state: CellState) {
         self.text = text
-        self.cellState = .FirstHalf
+        self.cellState = state
+    }
+
+    init(_ text: String) {
+        self.init(text, state: .Full)
     }
 
     var body: some View {
         switch self.cellState {
         case .Empty:
             Text("")
-                .padding()
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity)
+                .frame(height: 50)
                 .background(RoundedRectangle(cornerRadius: 8).fill(Color.nooLightGray))
                 .onTapGesture {
                     self.cellState = .Full
                 }
         case .Full:
             Text("")
-                .padding()
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity)
+                .frame(height: 50)
                 .background(RoundedRectangle(cornerRadius: 8).fill(Color.nooDarkGray))
                 .onTapGesture {
                     self.cellState = .FirstHalf
@@ -72,8 +76,8 @@ struct Cell: View {
                 .onTapGesture {
                     self.cellState = .SecondHalf
                 }
-                .frame(maxHeight: .infinity)
-            }.frame(maxHeight: .infinity)
+            }
+            .frame(height: 50)
         case .SecondHalf:
             GeometryReader { metrics in
                 ZStack {
@@ -87,7 +91,7 @@ struct Cell: View {
                             .font(.headline)
                             .foregroundColor(.white)
                             .frame(width: metrics.size.width * 0.50)
-                            .frame(maxHeight: metrics.size.height)
+                            .frame(maxHeight: .infinity)
                             .background(RoundedRectangle(cornerRadius: 8).fill(Color.nooDarkGray))
                     }
                 }
@@ -95,8 +99,8 @@ struct Cell: View {
                     self.cellState = .Empty
                 }
             }
+            .frame(height: 50)
         }
-
     }
 }
 
@@ -109,11 +113,20 @@ struct DayCol: View {
     var body: some View {
         VStack {
 
-            ForEach(0..<hoursInDay) { _ in
-                Cell("Day")
-                    .frame(height: 30)
-                    .padding([.vertical], 10)
-            }
+            Cell("Day", state: .Empty)
+                .padding([.vertical], 10)
+            Cell("Day", state: .Full)
+                .padding([.vertical], 10)
+            Cell("Day", state: .FirstHalf)
+                .padding([.vertical], 10)
+            Cell("Day", state: .SecondHalf)
+                .padding([.vertical], 10)
+
+//            ForEach(0..<hoursInDay - 3) { _ in
+//                Cell("Day")
+//                    .frame(height: 30)
+//                    .padding([.vertical], 10)
+//            }
 
         }
 
