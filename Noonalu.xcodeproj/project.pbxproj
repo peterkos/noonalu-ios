@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D710E3A4285F9E9A005C4613 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E3A3285F9E9A005C4613 /* CellView.swift */; };
 		D73D8FE82852E3F200974BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FE72852E3F200974BBC /* AppDelegate.swift */; };
 		D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D8FE92852E3F200974BBC /* SceneDelegate.swift */; };
 		D73D8FEF2852E3F200974BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D8FED2852E3F200974BBC /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D710E3A3285F9E9A005C4613 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		D73D8FE42852E3F200974BBC /* Noonalu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noonalu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D8FE72852E3F200974BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D73D8FE92852E3F200974BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D710E3A5285F9E9E005C4613 /* Base Views */ = {
+			isa = PBXGroup;
+			children = (
+				D710E3A3285F9E9A005C4613 /* CellView.swift */,
+			);
+			path = "Base Views";
+			sourceTree = "<group>";
+		};
 		D73D8FDB2852E3F200974BBC = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +173,7 @@
 				D7544CE82856890000130EC2 /* Scaffolding */,
 				D7544CDE2856858B00130EC2 /* MainNavigation.swift */,
 				D7544CE22856883E00130EC2 /* MeetingsView.swift */,
+				D710E3A5285F9E9E005C4613 /* Base Views */,
 				D7544CE62856884B00130EC2 /* CreateView.swift */,
 				D7544CE42856884A00130EC2 /* TeamView.swift */,
 				D7544CE02856867D00130EC2 /* SettingsView.swift */,
@@ -322,6 +333,7 @@
 				D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */,
 				D7544CE12856867D00130EC2 /* SettingsView.swift in Sources */,
 				D7544CE32856883E00130EC2 /* MeetingsView.swift in Sources */,
+				D710E3A4285F9E9A005C4613 /* CellView.swift in Sources */,
 				D7544CE52856884A00130EC2 /* TeamView.swift in Sources */,
 				D73D901C2852E50400974BBC /* SwiftUIHostingController.swift in Sources */,
 				D7544CDF2856858B00130EC2 /* MainNavigation.swift in Sources */,
