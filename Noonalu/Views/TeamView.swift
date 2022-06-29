@@ -11,10 +11,11 @@ import SwiftUI
 struct TeamView: View {
 
     var body: some View {
-        Text("Team")
-
-        
-
+        VStack {
+            Spacer()
+            NooButton(text: "Copy URL")
+                .padding([.bottom], 100)
+        }
     }
 
 }

@@ -24,6 +24,7 @@
 		D7544CE32856883E00130EC2 /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE22856883E00130EC2 /* MeetingsView.swift */; };
 		D7544CE52856884A00130EC2 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE42856884A00130EC2 /* TeamView.swift */; };
 		D7544CE72856884B00130EC2 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7544CE62856884B00130EC2 /* CreateView.swift */; };
+		D7656F61286CA156001995FC /* NooButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7656F60286CA156001995FC /* NooButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		D7544CE22856883E00130EC2 /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
 		D7544CE42856884A00130EC2 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 		D7544CE62856884B00130EC2 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		D7656F60286CA156001995FC /* NooButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NooButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				D710E3A3285F9E9A005C4613 /* CellView.swift */,
+				D7656F60286CA156001995FC /* NooButton.swift */,
 			);
 			path = "Base Views";
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			files = (
 				D7544CE72856884B00130EC2 /* CreateView.swift in Sources */,
 				D73D8FE82852E3F200974BBC /* AppDelegate.swift in Sources */,
+				D7656F61286CA156001995FC /* NooButton.swift in Sources */,
 				D73D901E2852E69100974BBC /* TestEvent.swift in Sources */,
 				D710E3A7285FA3FC005C4613 /* CreateViewModel.swift in Sources */,
 				D73D8FEA2852E3F200974BBC /* SceneDelegate.swift in Sources */,
