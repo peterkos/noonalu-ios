@@ -57,6 +57,7 @@ struct Cell: View {
                 .onTapGesture {
                     self.cellState = .Full
                 }
+                // All states are listed as empty on first view, as this cell is visible
                 .onAppear {
                     self.viewModel.selectTime(dayIndex: self.dayIndex,
                                               hourIndex: self.hourIndex,

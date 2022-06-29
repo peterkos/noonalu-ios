@@ -9,15 +9,6 @@ import SwiftUI
 
 // TODO: Make models for this instead of putting here :)
 
-// State is implicitly empty if not specified
-// (This could probably be cleaner, but oh well)
-// [    ] Initial state, nothing is in data model
-// [||||] Full
-// [||  ] FirstHalf
-// [  ||] SecondHalf
-// [    ] Empty  <-- this is where empty state used
-// [||||] Full
-// (etc)
 enum TimeSlot {
     case Full
     case FirstHalf
@@ -60,7 +51,7 @@ struct DateTimePair: Hashable {
 class CreateViewModel: ObservableObject {
 
     var selectedPairs = [DateTimePair]()
-    var testData: [[DateTimePair?]] = Array(repeating: Array(repeating: nil, count: 2), count: 8)
+    var testData: [[DateTimePair?]] = Array(repeating: Array(repeating: nil, count: 8), count: 2)
 
     func selectTime(dayIndex: Int, hourIndex: Int, timeSlot: TimeSlot) {
         
