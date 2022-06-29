@@ -57,6 +57,11 @@ struct Cell: View {
                 .onTapGesture {
                     self.cellState = .Full
                 }
+                .onAppear {
+                    self.viewModel.selectTime(dayIndex: self.dayIndex,
+                                              hourIndex: self.hourIndex,
+                                              timeSlot: .Empty)
+                }
         case .Full:
             Text("")
                 .foregroundColor(.white)
